@@ -59,3 +59,13 @@ game:GetService("ReplicatedStorage").RemoteEvents.OutsideRole:FireServer(unpack(
 
     print("Clicked")
 end)
+Section:NewButton("Speed", "Get 1+ speed spam if u need 5 speed", function()
+local args = {
+    [1] = "Speed"
+}
+
+game:GetService("ReplicatedStorage").Events.RainbowWhatStat:FireServer(unpack(args))
+
+    print("Clicked")
+end)
+
